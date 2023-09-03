@@ -1,0 +1,251 @@
+// NAV BAR
+nav.navbar{
+    height: 70px;
+
+
+
+    .container{
+        @media  (max-width:478px){
+            width: 100%;
+            
+        }
+        
+
+        .navbar-brand{
+            
+            img{
+                height: 3rem;
+            }
+
+        }
+
+        .navbar-nav{
+            //text-decoration: none;
+
+            .nav-item{
+                height: 70px;
+                padding-inline-start: 30px;
+                padding-inline-end: 30px;
+
+                .nav-link{
+                    font-size: 16px;
+                    height: 100%;
+                    display: flex;
+                    align-items: center;
+                    color: black;
+                    
+                }
+        
+            }
+
+        }
+    }
+
+}
+// NAV BAR
+
+
+// MAIN CONTAINER
+
+.main-container{
+    margin-inline: 150px;
+    width: 80%;
+    height: 50%;
+
+
+    @media  (max-width:576px){
+        width: 100%;
+       
+    }
+    
+
+    .container-wrap{
+        
+
+//NAVTABS
+        .nav-pills{
+            text-decoration: none;
+            border: 1px solid #CDD5DB;
+            border-top: 0px;
+            border-bottom: 1px solid #CDD5DB;
+            border-left: 0px;
+            border-right: 0px;
+                    
+            .nav-item{
+                padding-inline-start: 20px;
+                padding-inline-end: 20px;
+
+                @media (max-width: 576px ){
+                    padding-inline-start: 0px;
+                    padding-inline-end: 0px;
+                    
+                }
+                        
+                .nav-link{
+                    font-size: 16px;
+                    height: 100%;
+                    display: flex;
+                    align-items: center;
+                    color: black;
+                    background-color: white;
+                    outline-color: white;
+
+                    &:focus{
+                        border-bottom: 5px solid #1A48D4;
+
+                    }
+            
+                    &.active{
+                        border-bottom: 5px solid #1A48D4;
+                    }
+
+                  
+                }
+
+                
+            }
+        }
+   
+
+//NAVTABS
+
+
+// AUDIO TAB
+
+    .upload-wrapper{ 
+       
+        .form-control{
+            background-color: #FBFCFD;
+            border-color: #CDD5DB;
+            color: #CDD5DB;
+            padding: 10px;
+            border-radius: 12px;
+            margin-bottom: 3rem;
+
+
+            @media (max-width:2600px ){
+                width: 30%;
+                
+            }
+            @media  (max-width:1500px){
+                width: 400px;
+            
+            }
+
+            @media  (max-width: 576px){
+                justify-content: center;
+                width: 100%;
+            
+            }
+            
+        }
+    }
+
+    .transcribed-text{
+
+
+            .pends{
+                border-left-width: 12px;
+                border-left-color: #1A48D4;
+
+            }
+   
+
+        }
+
+
+    }
+
+
+
+    .btn-primary{
+        background-color: #1A48D4;
+        border-color: #1A48D4;
+        font-size: 12px;
+        padding: 12px;
+        height: 100%;
+    }
+
+
+
+    
+}
+// MAIN CONTAINER
+
+
+//BANNER
+.banner{
+
+    .profile-pic-info{
+        
+        img{
+            width: 120px;
+            height: 120px;
+            border-radius: 60px;
+        }
+        h5{
+            font-size: 18px;
+            font-weight: 400;
+        }
+        h6{
+            color: #7d7e80;
+        }
+    }
+
+
+    .row{
+        //margin-top: 50px;
+
+        .left-col{
+            border-left: 3px solid #1A48D4;
+            height: 140px;
+           
+        }
+        .right-col{
+            border-radius: 15px;
+
+            .col{
+                h6{
+                    font-size: 14px;
+                    color: #3e3e3f;
+                    font-weight: 400;
+                }
+                h5{
+                    font-size: 18px;
+                    font-weight: 400;
+                }
+                .small{
+                    font-size: 12px;
+                    color: #9CABB8;
+                }
+                .bar{
+                    border-bottom: 1px solid #9CABB8;
+                    width: 80%;
+                }
+                .inner-right-col{
+                    border-left: 1px solid #9CABB8;
+                    height: 100px;
+              
+                }
+            }
+        }
+
+
+
+        
+    
+    }
+}
+//BANNER
+
+
+
+
+
+
+
+
+
+
+
+

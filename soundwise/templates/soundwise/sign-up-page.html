@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<!-- Coding by CodingLab | www.codinglabweb.com-->
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title> Sign Up </title>
+
+        <!-- CSS -->
+        <link rel="stylesheet" href="../../../static/css/log-style.css">
+                
+        <!-- Boxicons CSS -->
+        <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+                        
+    </head>
+    <body>
+        
+            <!-- Signup Form -->
+
+            <section class="container forms">
+                <div class="form login">
+                    <div class="form-content">
+                        <header>Sign Up</header>
+                        <form method="post">
+                            {% csrf_token %}
+                            {% for field in form %}
+                            <div class="field input-field">
+                                {{ field.label_tag }}<br>
+                                {{ field }}
+                            </div>
+    
+<!--                            <div class="field input-field">-->
+<!--                                <input type="password" name="password1" placeholder="Create password" class="password" required>-->
+<!--                            </div>-->
+<!--    -->
+<!--                            <div class="field input-field">-->
+<!--                                <input type="password" name="password2" placeholder="Confirm password" class="password" required>-->
+<!--                                <i class='bx bx-hide eye-icon'></i>-->
+<!--                            </div>-->
+                            {% endfor %}
+                            <div class="field button-field">
+                                <button type="submit">Signup</button>
+                            </div>
+                        </form>
+                        <div class="field button-field">
+<!--                            {% load socialaccount %}-->
+<!--                            <h1>Google Login</h1>-->
+                            <button type="button"><a href="{% provider_login_url 'google'%}?next=/">Sign up with Google</a></button>
+
+                        </div>
+    
+                        <div class="form-link">
+                            <span>Already have an account? <a href="{% url 'login' %}" class="link login-link">Login</a></span>
+                        </div>
+                    </div>
+    
+                    
+                </div>
+            </section>
+        
+        <!-- JavaScript -->
+        <script src="js/main.js"></script>
+    </body>
+</html>
