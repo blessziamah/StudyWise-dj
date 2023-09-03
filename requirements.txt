@@ -7,13 +7,9 @@ anaconda-navigator==2.4.0
 anaconda-project @ file:///opt/conda/conda-bld/anaconda-project_1660339890420/work
 anyio @ file:///tmp/build/80754af9/anyio_1644481695334/work/dist
 appdirs==1.4.4
-argon2-cffi @ file:///opt/conda/conda-bld/argon2-cffi_1645000214183/work
-argon2-cffi-bindings @ file:///tmp/build/80754af9/argon2-cffi-bindings_1644553347904/work
-arrow @ file:///croot/arrow_1676588132104/work
+
 asgiref==3.7.2
-astroid @ file:///croot/astroid_1676904296642/work
-astropy @ file:///opt/conda/conda-bld/astropy_1657786094003/work
-asttokens @ file:///opt/conda/conda-bld/asttokens_1646925590279/work
+
 astunparse==1.6.3
 async-timeout==4.0.3
 atomicwrites==1.4.0
@@ -312,59 +308,27 @@ spyder @ file:///croot/spyder_1677776123936/work
 spyder-kernels @ file:///croot/spyder-kernels_1673292235155/work
 SQLAlchemy @ file:///tmp/abs_18b3238f-9c23-4182-a392-63af30a93c1er8j_yw60/croots/recipe/sqlalchemy_1657867856580/work
 sqlparse==0.4.4
-stack-data @ file:///opt/conda/conda-bld/stack_data_1646927590127/work
-statsmodels @ file:///croot/statsmodels_1676643798791/work
-sympy @ file:///croot/sympy_1668202399572/work
-tables @ file:///croot/pytables_1673967643433/work
-tabulate @ file:///opt/conda/conda-bld/tabulate_1657784105888/work
+
 TBB==0.2
-tblib @ file:///Users/ktietz/demo/mc3/conda-bld/tblib_1629402031467/work
-tenacity @ file:///tmp/abs_9ca5cd06-f53b-4ea6-8eea-954e11157fddo5mhurpp/croots/recipe/tenacity_1657899103026/work
+
 tensorboard==2.13.0
 tensorboard-data-server==0.7.1
 tensorflow==2.13.0
 tensorflow-estimator==2.13.0
 tensorflow-io-gcs-filesystem==0.33.0
 termcolor==2.3.0
-terminado @ file:///croot/terminado_1671751832461/work
-text-unidecode @ file:///Users/ktietz/demo/mc3/conda-bld/text-unidecode_1629401354553/work
-textdistance @ file:///tmp/build/80754af9/textdistance_1612461398012/work
-threadpoolctl @ file:///Users/ktietz/demo/mc3/conda-bld/threadpoolctl_1629802263681/work
-three-merge @ file:///tmp/build/80754af9/three-merge_1607553261110/work
-tifffile @ file:///tmp/build/80754af9/tifffile_1627275862826/work
-tinycss2 @ file:///croot/tinycss2_1668168815555/work
-tldextract @ file:///opt/conda/conda-bld/tldextract_1646638314385/work
-tokenizers @ file:///opt/conda/conda-bld/tokenizers_1651822590771/work
-toml @ file:///tmp/build/80754af9/toml_1616166611790/work
-tomli @ file:///opt/conda/conda-bld/tomli_1657175507142/work
-tomlkit @ file:///tmp/abs_56_0lnnq5x/croots/recipe/tomlkit_1658946880479/work
-toolz @ file:///croot/toolz_1667464077321/work
+
 torch==1.12.1
-tornado @ file:///home/builder/ci_310/tornado_1640795392144/work
+
 tqdm==4.66.1
-traitlets @ file:///croot/traitlets_1671143879854/work
-transformers @ file:///croot/transformers_1667919440064/work
-Twisted @ file:///tmp/abs_82802zpkox/croots/recipe/twisted_1659592759417/work
-typing_extensions @ file:///croot/typing_extensions_1669924550328/work
-ujson @ file:///opt/conda/conda-bld/ujson_1657544923770/work
-Unidecode @ file:///tmp/build/80754af9/unidecode_1614712377438/work
+
 urllib3==2.0.4
 virtualenv==20.16.5
-w3lib @ file:///Users/ktietz/demo/mc3/conda-bld/w3lib_1629359764703/work
-watchdog @ file:///home/builder/ci_310/watchdog_1640811339391/work
-wcwidth @ file:///Users/ktietz/demo/mc3/conda-bld/wcwidth_1629357192024/work
+
 webencodings==0.5.1
-websocket-client @ file:///home/builder/ci_310/websocket-client_1640795866898/work
-Werkzeug @ file:///croot/werkzeug_1671215996852/work
-whatthepatch @ file:///opt/conda/conda-bld/whatthepatch_1661795988879/work
+
 whitenoise==6.5.0
-widgetsnbextension @ file:///tmp/build/80754af9/widgetsnbextension_1645009354667/work
-wrapt @ file:///tmp/abs_c335821b-6e43-4504-9816-b1a52d3d3e1eel6uae8l/croots/recipe/wrapt_1657814400492/work
-wurlitzer @ file:///home/builder/ci_310/wurlitzer_1640796026694/work
-xarray @ file:///croot/xarray_1668776594578/work
-yapf @ file:///tmp/build/80754af9/yapf_1615749224965/work
+
 yarl==1.9.2
 zict==2.1.0
-zipp @ file:///croot/zipp_1672387121353/work
-zope.interface @ file:///home/builder/ci_310/zope.interface_1640811449297/work
-zstandard @ file:///croot/zstandard_1677013143055/work
+
