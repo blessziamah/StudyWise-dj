@@ -1,0 +1,1 @@
+web gunicorn SoundWise.wsgi:application --log-file -
